@@ -1,0 +1,67 @@
+{
+  "dataset_rows": 45211,
+  "sample_size": 5000,
+  "training_records": 4000,
+  "testing_records": 1000,
+  "algorithm": "DecisionTreeClassifier",
+  "test_size": 0.2,
+  "accuracy": 0.599,
+  "roc_auc": 0.6674,
+  "confusion_matrix": [
+    [
+      524,
+      359
+    ],
+    [
+      42,
+      75
+    ]
+  ],
+  "classification_report": {
+    "No subscription": {
+      "precision": 0.9257950530035336,
+      "recall": 0.5934314835787089,
+      "f1-score": 0.7232574189095928,
+      "support": 883.0
+    },
+    "Subscription": {
+      "precision": 0.1728110599078341,
+      "recall": 0.6410256410256411,
+      "f1-score": 0.27223230490018147,
+      "support": 117.0
+    },
+    "accuracy": 0.599,
+    "macro avg": {
+      "precision": 0.5493030564556839,
+      "recall": 0.6172285623021749,
+      "f1-score": 0.49774486190488715,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.8376959258113367,
+      "recall": 0.599,
+      "f1-score": 0.6704874805704917,
+      "support": 1000.0
+    }
+  },
+  "numeric_features": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "categorical_features": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "random_state": 42
+}

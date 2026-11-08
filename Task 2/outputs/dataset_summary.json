@@ -1,0 +1,47 @@
+{
+  "total_records": 45211,
+  "total_columns": 17,
+  "duplicate_rows": 0,
+  "column_names": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "y"
+  ],
+  "missing_values": {
+    "age": 0,
+    "job": 0,
+    "marital": 0,
+    "education": 0,
+    "default": 0,
+    "balance": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 0,
+    "day": 0,
+    "month": 0,
+    "duration": 0,
+    "campaign": 0,
+    "pdays": 0,
+    "previous": 0,
+    "poutcome": 0,
+    "y": 0
+  },
+  "target_distribution": {
+    "no": 39922,
+    "yes": 5289
+  }
+}
